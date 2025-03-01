@@ -1,6 +1,6 @@
 <script>
   import "$lib/landingpage.css";
-
+  export let title = "Landing Page";
   let responses = [
     { id: 1, question: "What are your dietary preferences?", value: "" },
     { id: 2, question: "Do you have any food allergies?", value: "" },

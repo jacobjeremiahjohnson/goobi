@@ -6,6 +6,6 @@
 <Header title="Goobi" />
 
 <main>
-  <slot />
+  <slot/>
 </main>
 
