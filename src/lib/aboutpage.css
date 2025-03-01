@@ -15,46 +15,6 @@ header {
     padding: 0.5rem 1rem;
 }
 
-h1 {
-    color: #1D263B;
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-nav {
-    margin-top: 1rem;
-}
-
-nav a {
-    font-size: 1.2rem;
-    color: #4CAF50;
-    text-decoration: none;
-    margin: 0 1.5rem;
-    padding: 0.5rem 1rem;
-    position: relative;
-    overflow: hidden;
-}
-
-nav a::after {
-    content: '';
-    position: absolute;
-    bottom: 7px;
-    left: 50%;
-    width: 0;
-    height: 2px;
-    background-color: #4CAF50;
-    transition: width 0.3s ease, left 0.3s ease;
-}
-
-nav a:hover::after {
-    width: 100%;
-    left: 0;
-}
-
-nav a:active {
-    transform: translateY(1px);
-}
-
 .container {
     max-width: 600px;
     margin: 6rem auto;
@@ -106,6 +66,12 @@ button:active {
     transform: scale(0.98); 
 }
 
-.textareas-container {
+h1 {
+    color: #1D263B;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.textareas-container{
     color: black;
 }

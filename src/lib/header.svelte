@@ -5,5 +5,9 @@
 
 <header>
   <h1>{title}</h1>
+  <nav>
+    <a href="/landing">Home</a>
+    <a href="/about">About</a>
+  </nav>
 </header>
 
