@@ -1,16 +1,11 @@
 <script>
   import Header from "$lib/header.svelte";
+  
 </script>
 
-<Header title="hi" />
+<Header title="hello" />
 
 <main>
   <slot />
 </main>
 
-<style>
-  main {
-    margin-top: 2rem; 
-    padding: 1rem;
-  }
-</style>
