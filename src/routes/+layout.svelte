@@ -3,7 +3,7 @@
   
 </script>
 
-<Header title="hello" />
+<Header title="Goobi" />
 
 <main>
   <slot />
